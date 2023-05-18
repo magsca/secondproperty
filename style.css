@@ -26,24 +26,26 @@ aside {
 #start{
     border-radius: 15px;
     height: 33px;
-    width: 60px;
+    width: 70px;
     background-color: white;
     font-weight: bold;
     color: black;
-    font-size: 10px;
-    margin-left:35vh;
+    font-size: 9px;
+    margin-left: 30vh;
+    margin-top: 20px;
     text-align: center;
-    border: 0px; 
+    border: 0px;
+    position:absolute; 
+    
     
 }
-/*
+
 .startposition{
 display: flex;
-html:
-     <div class="startposition">
-        <button id="start" >Get started</button>
-    </div>
-} */
+flex-direction: row;
+
+    
+} 
 
 
 #road {
@@ -52,6 +54,33 @@ html:
     margin-right: 4px;
     margin-top: 4px;
     border-radius: 10px;
+}
+#fouravatar {
+    display: grid;
+    grid-auto-flow: column;
+    justify-items: center;
+    justify-content: start;
+    align-items: end;
+    margin-left: 2vh;
+    margin-top: -13vh;
+}
+.litleavatar {
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+   
+}
+.hundred{
+    font-size: 10px;
+    color: white;
+    font-weight: bold;
+}
+.satisfied{
+    font-size: 9px;
+    color: #6C7768;
+}
+.hs{
+    margin-left: 15px;
 }
 #triva{
     width: 90px;
