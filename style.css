@@ -2,28 +2,34 @@
     padding: 0%;
     margin: 0%;
 }
-body{
 
-    background-color: #618F62;  
-    
+body {
+
+    background-color: #618F62;
+
+
 }
-main{
-    margin-left:9vh;
+
+main {
+    margin-left: 8.1vh;
 }
-.wrap{
+
+.wrap {
     width: 55%;
-    height: 80%;
+    height: 90%;
     background-color: white;
     margin-top: 7vh;
     margin-right: 7vh;
     margin-bottom: 15vh;
-    margin-left: 48vh;   
-    border-radius: 10px; 
+    margin-left: 48vh;
+    border-radius: 10px;
 }
+
 aside {
     float: right;
 }
-#start{
+
+#start {
     border-radius: 15px;
     height: 33px;
     width: 70px;
@@ -35,18 +41,40 @@ aside {
     margin-top: 20px;
     text-align: center;
     border: 0px;
-    position:absolute; 
-    
-    
+    position: absolute;
 }
 
-.startposition{
-display: flex;
-flex-direction: row;
+.startposition {
+    display: flex;
+    flex-direction: row;
 
-    
-} 
 
+}
+
+#asidebutton {
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    background-color: white;
+    font-weight: bold;
+    color: black;
+    font-size: 9px;
+    margin-top: 4vh;
+    margin-left: 42vh;
+    text-align: center;
+    border: 0px;
+    position: absolute;
+}
+
+.play {
+    margin-top: 40vh;
+    margin-left: 23vh;
+    position: absolute;
+    font-size: 11px;
+    font-weight: bolder;
+    color: white;
+    border-radius: 25%;
+}
 
 #road {
     width: 50vh;
@@ -55,6 +83,7 @@ flex-direction: row;
     margin-top: 4px;
     border-radius: 10px;
 }
+
 #fouravatar {
     display: grid;
     grid-auto-flow: column;
@@ -64,27 +93,32 @@ flex-direction: row;
     margin-left: 2vh;
     margin-top: -13vh;
 }
+
 .litleavatar {
     width: 30px;
     height: 30px;
     border-radius: 50px;
-   
+
 }
-.hundred{
+
+.hundred {
     font-size: 10px;
     color: white;
     font-weight: bold;
 }
-.satisfied{
+
+.satisfied {
     font-size: 9px;
     color: #6C7768;
 }
-.hs{
+
+.hs {
     margin-left: 15px;
 }
-#triva{
+
+#triva {
     width: 90px;
-    
+    margin-bottom: -10px;
     margin-left: -2vh;
 }
 
@@ -115,12 +149,14 @@ flex-direction: row;
     font-size: 30px;
     font-weight: 400;
 }
-#titlebottom{
+
+#titlebottom {
     display: flex;
     align-items: flex-end;
-    margin-top: 50px;
-    margin-bottom: 50px;
+    margin-top: 41px;
+    margin-bottom: 40px;
 }
+
 #greenprop {
     border-radius: 15px;
     height: 33px;
@@ -132,44 +168,77 @@ flex-direction: row;
     margin-left: -102px;
     border: 0vh;
 }
-#allfacts{
-    
+
+#allfacts {
+
     display: flex;
     align-items: flex-start;
 }
-#facts{
+
+#facts {
     display: flex;
     flex-direction: column;
     font-size: 10px;
 }
-#earnup{
+
+#earnup {
     margin-left: 80px;
     margin-bottom: 20px;
     color: #B3B3B5;
     font-size: 10px;
 }
-.back{
+
+.back {
     width: 60%;
-    margin: 0%;
-     
+    margin-left: 5px;
+    margin-bottom: 5px;
+
 }
 
-#backpic{
+#backpic {
     width: 63vh;
     height: 22vh;
     border-radius: 10px;
     margin-left: -8vh;
-    
+
 }
-.estimate{
+
+.estimate {
     margin-top: -19vh;
     font-size: 7px;
     color: white;
     margin-left: 2vh;
-    
-    
+    width: 30%;
 }
-.threebutton{
+
+.butt {
+    width: 10%;
+    margin-left: 50vh;
+    margin-top: -3vh;
+    position: absolute;
+}
+
+#search {
+    display: flex;
+    margin-right: 77vh;
+}
+
+#searchbutton {
+    border-radius: 50%;
+    height: 25px;
+    width: 25px;
+    background-color: white;
+    font-weight: bold;
+    color: black;
+    font-size: 9px;
+    margin-top: -3vh;
+    margin-left: -2vh;
+    text-align: center;
+    border: 0px;
+    position: absolute;
+}
+
+.threebutton {
     border-radius: 15px;
     height: 30px;
     width: 150px;
@@ -182,7 +251,20 @@ flex-direction: row;
     margin-left: 2vh;
     border: 0px;
 }
-.areabutton{
+
+.smallbuttontitle {
+    font-size: 8px;
+    color: #b4c5ac56;
+    ;
+
+}
+
+.bigbuttontitle {
+    font-size: 9px;
+    color: #b4c5ac;
+}
+
+.areabutton {
     border-radius: 15px;
     height: 30px;
     width: 150px;
@@ -194,9 +276,10 @@ flex-direction: row;
     text-align: left;
     margin-left: -6vh;
     border: 0px;
-    
+
 }
-.unicbutton{
+
+.unicbutton {
     border-radius: 15px;
     height: 30px;
     width: 150px;
@@ -204,12 +287,13 @@ flex-direction: row;
     font-weight: bold;
     color: black;
     font-size: 7px;
-    margin-left:-6vh ;
+    margin-left: -6vh;
     text-align: center;
     border: 0px;
 }
-#allbuttons{
+
+#allbuttons {
     display: grid;
-    grid-template-columns:200px 200px ;  
+    grid-template-columns: 200px 200px;
     margin-top: 0vh;
 }
