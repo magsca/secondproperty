@@ -4,10 +4,7 @@
 }
 
 body {
-
     background-color: #618F62;
-
-
 }
 
 main {
@@ -29,6 +26,10 @@ aside {
     float: right;
 }
 
+.startposition {
+    display: flex;
+    flex-direction: row;
+}
 #start {
     border-radius: 15px;
     height: 33px;
@@ -42,13 +43,6 @@ aside {
     text-align: center;
     border: 0px;
     position: absolute;
-}
-
-.startposition {
-    display: flex;
-    flex-direction: row;
-
-
 }
 
 #asidebutton {
@@ -98,7 +92,9 @@ aside {
     width: 30px;
     height: 30px;
     border-radius: 50px;
-
+}
+.hs {
+    margin-left: 15px;
 }
 
 .hundred {
@@ -112,9 +108,6 @@ aside {
     color: #6C7768;
 }
 
-.hs {
-    margin-left: 15px;
-}
 
 #triva {
     width: 90px;
@@ -144,17 +137,16 @@ aside {
     border-color: #F7F7F7;
     border-style: solid;
 }
-
-#spaceh1 {
-    font-size: 30px;
-    font-weight: 400;
-}
-
 #titlebottom {
     display: flex;
     align-items: flex-end;
     margin-top: 41px;
     margin-bottom: 40px;
+}
+
+#spaceh1 {
+    font-size: 30px;
+    font-weight: 400;
 }
 
 #greenprop {
@@ -170,7 +162,6 @@ aside {
 }
 
 #allfacts {
-
     display: flex;
     align-items: flex-start;
 }
@@ -192,7 +183,6 @@ aside {
     width: 60%;
     margin-left: 5px;
     margin-bottom: 5px;
-
 }
 
 #backpic {
@@ -200,7 +190,6 @@ aside {
     height: 22vh;
     border-radius: 10px;
     margin-left: -8vh;
-
 }
 
 .estimate {
@@ -218,11 +207,6 @@ aside {
     position: absolute;
 }
 
-#search {
-    display: flex;
-    margin-right: 77vh;
-}
-
 #searchbutton {
     border-radius: 50%;
     height: 25px;
@@ -236,6 +220,17 @@ aside {
     text-align: center;
     border: 0px;
     position: absolute;
+}
+
+#search {
+    display: flex;
+    margin-right: 77vh;
+}
+
+#allbuttons {
+    display: grid;
+    grid-template-columns: 200px 200px;
+    margin-top: 0vh;
 }
 
 .threebutton {
@@ -255,8 +250,6 @@ aside {
 .smallbuttontitle {
     font-size: 8px;
     color: #b4c5ac56;
-    ;
-
 }
 
 .bigbuttontitle {
@@ -292,8 +285,3 @@ aside {
     border: 0px;
 }
 
-#allbuttons {
-    display: grid;
-    grid-template-columns: 200px 200px;
-    margin-top: 0vh;
-}
